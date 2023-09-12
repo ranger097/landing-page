@@ -1,0 +1,67 @@
+body {
+margin: 0;
+padding: 0;
+background-image: url(blurr.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.header {
+display: flex;
+color: white;
+justify-content: space-around;
+flex-direction: row;
+
+} 
+
+.body-one {
+background-color: rgb(184, 150, 222);
+display: flex;
+align-items: center;
+justify-content: center;
+
+} 
+
+.body-two {
+
+
+
+}
+
+
+.footer {
+
+
+
+
+}
+
+
+a ,ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.header-logo{
+
+color: white;
+
+}
+
+.header-links {
+
+display: flex;
+a
+
+
+}
+
+.body-logo {
+height: auto;
+max-height: 50%;
+max-width: 50%;
+
+
+
+}
+}
