@@ -22,34 +22,32 @@ padding-right: 2%;
 } 
 
 .body-one {
-background-color: rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.541);
 background-size: auto;
 display: flex;
-align-items: center;
+align-items: flex-end;
 justify-content: center;
-align-self: center;
+align-self: flex-end;
 flex-direction: row-reverse;
-padding-top: 50px;
-padding-left: 20px;
-padding-right: 20px;
-padding-bottom: 300px;
+padding-top: -3%;
+padding-bottom: 100px;
 color: rgb(58, 221, 254);
-box-shadow: 0px 10px 0px rgba(48, 47, 119, 0.644);
-box-shadow: 5px 0px 5px rgb(255, 196, 0);
 min-width: 100%;
-gap: 50px;
+gap: 6%;
+border-radius: 70px;
 
 
 } 
 
 .body-two {
 display: flex;
-background-color: rgba(0, 0, 0, 0.514);
+background-color: rgba(0, 0, 0, 0);
 color: rgba(48, 47, 119, 0.644);
 flex-direction: row;
 align-items: center;
 text-align: center;
 justify-content: center;
+color: rgb(58, 221, 254);
 
 }
 
@@ -96,10 +94,11 @@ font-size: 20px;
 }
 
 .body-logo {
-border-radius: 90px;
-min-width:45% ;
-max-width: 45%;
-margin-left: 400px;
+    margin-right: -300px;
+    min-width: 55%;
+    max-width: 60%;
+   padding-left: 33%;
+   padding-top: 10%;
 }
 
 
@@ -116,11 +115,11 @@ h2 {
     text-shadow: 0px 5px 0px rgba(48, 47, 119, 0.644);
     text-shadow: 2px 0px 2px rgb(255, 196, 0);
     order: 2;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 10px;
     white-space: nowrap;
-    font-size: 20px;
-    margin-left: 550px;
+    font-size: 16px;
+    margin-left: 3%;
 }
 
 
@@ -148,25 +147,76 @@ button {
 }
 
 h3 {
-
+display: flex;
     text-shadow: 0px 5px 0px rgba(48, 47, 119, 0.644);
     text-shadow: 2px 0px 2px rgb(255, 196, 0);
     color: rgb(58, 221, 254);
+    font-size: 30px;
+    white-space: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
 }
 
 .body-two-images {
 display: flex;
-flex-direction: row;
+justify-content: space-between;
 align-items: center;
-justify-content: center;
+gap: 50px;
+padding-top: 2%;
+border-radius: 70px;
+background-color: rgba(0, 0, 0, 0.541);
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 2%;
+box-shadow: 2px 2px 2px rgb(0, 0, 0);
+color: rgb(58, 221, 254);
+text-shadow: 0px 5px 0px rgba(48, 47, 119, 0.644);
+text-shadow: 2px 0px 2px rgb(255, 196, 0);
+
 }
 
 
-.body-two-logos {
-display: flex;
-max-width: 100px;
-max-height: 100px;
 
+img {
+
+max-width: 100%;
+
+
+}
+
+
+.body-three {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.541);
+    border-radius: 70px;
+    margin-top: 5%;
+    font-size: 30px;
+    padding: 1%;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+
+   
+
+}
+
+.body-three-text {
+    text-shadow: 0px 5px 0px rgba(48, 47, 119, 0.644);
+    text-shadow: 2px 0px 2px rgb(255, 196, 0);
+    color: rgb(58, 221, 254);
+    white-space: nowrap;
+    text-decoration: wavy;
+}
+
+
+.crusty {
+
+align-self: flex-end;
+justify-content: flex-end;
 
 
 }
